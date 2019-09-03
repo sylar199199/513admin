@@ -1,0 +1,3 @@
+export const SET_COURSE_DETAIL = 'SET_COURSE_DETAIL'
+export const SET_MODAL_RELATE = ' SET_MODAL_RELATE'
+export const SET_DETAILS_ID = ' SET_DETAILS_ID'

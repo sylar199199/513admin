@@ -1,0 +1,74 @@
+{
+  "name": "513tech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev-server": "webpack-dev-server --hot --inline",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "format": "prettier --write \"src/**/*.js\" \"src/**/*.vue\"",
+    "precommit": "lint-staged",
+    "new:comp": "node ./scripts/generateComponent",
+    "new:view": "node ./scripts/generateView"
+  },
+  "lint-staged": {
+    "linters": {
+      "src/**/*.{js,json,css,vue}": [
+        "prettier --write",
+        "eslint --fix",
+        "git add"
+      ]
+    },
+    "ignore": [
+      "src/assets/**/*.{js,css,json}"
+    ]
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^2.6.5",
+    "egrid": "^1.1.2",
+    "mavon-editor": "^2.7.5",
+    "marked": "^0.6.2",
+    "nprogress": "^0.2.0",
+    "qs": "^6.7.0",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-plugin-unit-jest": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "axios": "0.18.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "chalk": "^2.4.2",
+    "compression-webpack-plugin": "^2.0.0",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.9.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "husky": "^2.2.0",
+    "less": "^3.0.4",
+    "lint-staged": "^8.1.6",
+    "moment": "2.24.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.0",
+    "sass-loader": "^7.1.0",
+    "style-resources-loader": "^1.2.1",
+    "vue": "2.6.10",
+    "vue-cropper": "^0.4.9",
+    "vue-echarts": "^4.0.3",
+    "vue-router": "3.0.3",
+    "vue-template-compiler": "^2.5.21",
+    "vuex": "3.0.1"
+  }
+}
