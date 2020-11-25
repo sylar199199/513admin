@@ -4215,13 +4215,10 @@ highlight.js-async-webpack@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/highlight.js-async-webpack/download/highlight.js-async-webpack-1.0.4.tgz#c06b67bf99f049045d62b756e5855b0912ec616c"
 
-highlight.js@^9.11.0:
-  version "9.15.8"
-  resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.15.8.tgz#f344fda123f36f1a65490e932cf90569e4999971"
-
-highlight.js@^9.6.0:
-  version "9.15.6"
-  resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.15.6.tgz#72d4d8d779ec066af9a17cb14360c3def0aa57c4"
+highlight.js@^9.11.0, highlight.js@^9.6.0:
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -5790,6 +5787,11 @@ map-visit@^1.0.0:
   resolved "https://registry.npm.taobao.org/map-visit/download/map-visit-1.0.0.tgz#ecdca8f13144e660f1b5bd41f12f3479d98dfb8f"
   dependencies:
     object-visit "^1.0.0"
+
+marked@^0.6.2:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.6.3.tgz#79babad78af638ba4d522a9e715cdfdd2429e946"
+  integrity sha512-Fqa7eq+UaxfMriqzYLayfqAE40WN03jf+zHjT18/uXNuzjq3TY0XTbrAoPeqSJrAmPz11VuUA+kBPYOhHt9oOQ==
 
 matcher@^1.0.0:
   version "1.1.1"
@@ -8916,6 +8918,11 @@ vm-browserify@0.0.4:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-cropper@^0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/vue-cropper/-/vue-cropper-0.4.9.tgz#fe650f32516ecf29014bbd4a9079191c8dc5a5ae"
+  integrity sha512-Uf1i/sCh+ZqSM9hb2YTGRENzJFH+mvDuv8N2brGLjK7UBuF7XDP7zbis8g/dcqZiMojAcBDtObFCn4ERFbRMxQ==
 
 vue-echarts@^4.0.3:
   version "4.0.3"
