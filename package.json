@@ -32,7 +32,7 @@
     "mavon-editor": "^2.7.5",
     "marked": "^0.6.2",
     "nprogress": "^0.2.0",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
